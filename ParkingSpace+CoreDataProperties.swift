@@ -16,9 +16,9 @@ extension ParkingSpace {
         return NSFetchRequest<ParkingSpace>(entityName: "ParkingSpace")
     }
 
-    @NSManaged public var id: UUID?
-    @NSManaged public var title: String?
-    @NSManaged public var location: String?
+    @NSManaged public var id: UUID
+    @NSManaged public var title: String
+    @NSManaged public var location: String
     @NSManaged public var latitude: Double
     @NSManaged public var longitude: Double
     @NSManaged public var availability: Bool

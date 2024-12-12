@@ -17,10 +17,10 @@ extension Reservation {
     }
 
     @NSManaged public var id: UUID?
-    @NSManaged public var parkingSpaceID: UUID?
-    @NSManaged public var renterName: String?
-    @NSManaged public var date: Date?
-    @NSManaged public var time: Date?
+    @NSManaged public var parkingSpaceID: UUID
+    @NSManaged public var renterName: String
+    @NSManaged public var date: Date
+    @NSManaged public var time: Date
 
 }
 

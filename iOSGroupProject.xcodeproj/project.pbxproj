@@ -6,8 +6,19 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		D2F2F6DC2D0B0E5C00435FAA /* Reservation+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2F2F6DA2D0B0E5C00435FAA /* Reservation+CoreDataClass.swift */; };
+		D2F2F6DD2D0B0E5C00435FAA /* ParkingSpace+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2F2F6D82D0B0E5C00435FAA /* ParkingSpace+CoreDataClass.swift */; };
+		D2F2F6DE2D0B0E5C00435FAA /* Reservation+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2F2F6DB2D0B0E5C00435FAA /* Reservation+CoreDataProperties.swift */; };
+		D2F2F6DF2D0B0E5C00435FAA /* ParkingSpace+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2F2F6D92D0B0E5C00435FAA /* ParkingSpace+CoreDataProperties.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		D2F2F6AC2D0B06C000435FAA /* iOSGroupProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOSGroupProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D2F2F6D82D0B0E5C00435FAA /* ParkingSpace+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ParkingSpace+CoreDataClass.swift"; sourceTree = "<group>"; };
+		D2F2F6D92D0B0E5C00435FAA /* ParkingSpace+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ParkingSpace+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		D2F2F6DA2D0B0E5C00435FAA /* Reservation+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Reservation+CoreDataClass.swift"; sourceTree = "<group>"; };
+		D2F2F6DB2D0B0E5C00435FAA /* Reservation+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Reservation+CoreDataProperties.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -32,6 +43,10 @@
 		D2F2F6A32D0B06C000435FAA = {
 			isa = PBXGroup;
 			children = (
+				D2F2F6D82D0B0E5C00435FAA /* ParkingSpace+CoreDataClass.swift */,
+				D2F2F6D92D0B0E5C00435FAA /* ParkingSpace+CoreDataProperties.swift */,
+				D2F2F6DA2D0B0E5C00435FAA /* Reservation+CoreDataClass.swift */,
+				D2F2F6DB2D0B0E5C00435FAA /* Reservation+CoreDataProperties.swift */,
 				D2F2F6AE2D0B06C000435FAA /* iOSGroupProject */,
 				D2F2F6AD2D0B06C000435FAA /* Products */,
 			);
@@ -119,6 +134,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D2F2F6DC2D0B0E5C00435FAA /* Reservation+CoreDataClass.swift in Sources */,
+				D2F2F6DD2D0B0E5C00435FAA /* ParkingSpace+CoreDataClass.swift in Sources */,
+				D2F2F6DE2D0B0E5C00435FAA /* Reservation+CoreDataProperties.swift in Sources */,
+				D2F2F6DF2D0B0E5C00435FAA /* ParkingSpace+CoreDataProperties.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
