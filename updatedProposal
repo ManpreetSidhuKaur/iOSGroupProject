@@ -1,0 +1,89 @@
+Project Overview:
+The SpotFinder app is a user-friendly mobile solution designed to simplify parking spot reservations in busy urban areas. The app allows users to find, book, and manage parking spots efficiently. Additionally, the app will provide key functionalities such as parking availability, pricing details, and location-based filtering, making the experience seamless for users. 
+The SpotFinder app is designed with a focus on user convenience, offering a simple and intuitive interface that allows users to navigate through parking options effortlessly. In addition to location-based filtering, the app includes customizable preferences, enabling users to receive real-time updates on availability in their preferred locations and enhanced analytics to provide users with smarter parking recommendations. Security is also a key consideration, with user data protected through robust authentication mechanisms, ensuring that all bookings are secure. Furthermore, the app’s architecture is built to scale, with plans for future integration of payment processing systems, location-based services to help users find parking spots nearby and integrating advanced iOS features like push notifications to notify users about spot availability.
+The app is developed using SwiftUI as the framework, leveraging its declarative UI design for creating visually appealing and consistent interfaces across multiple devices. Core functionalities such as parking spot listing and booking are integrated using CoreData for data persistence, ensuring that parking spots and booking details are saved locally. 
+The development environment for this project will include:
+Framework: SwiftUI
+Database: CoreData
+Libraries: GeoMaps (for map-based features)
+Tools: Xcode, Visual Paradigm, GitHub
+Additional Features: Widgets for quick parking spot updates
+
+User Interface Wireframes:
+The app consists of multiple views that guide users through the parking experience. Below are the wireframes for the primary screens, detailing the purpose and functionality of each:
+ 
+
+
+
+
+1. Parking List View Screen:
+Purpose: Displays a list of available parking spots with sorting and filtering options based on location. Each parking spot will show essential details like location and price.
+Inputs: A search bar is visible for searching parking spots or locations.
+Outputs: A list of parking spots available in different locations with details like price, location, availability and a button to "Reserve" the parking spot.
+User Interaction: The user can search for parking spots and then choose to reserve a spot. There are additional navigation options like "Reservations" and "Post a Parking Space" on the left sidebar.
+
+
+
+
+
+2. Reservations Screen: 
+Purpose: The screen displays current or upcoming reservations.
+Input: If the user would like to make changes to their reservation, they use the ‘Edit Reservation’ button to change the date or time of the booking. If they would like to cancel the booking, they use the ‘Delete Reservation’ button. 
+Outputs: Updated Reservation details, including the name of the parking location, address, date, time and price of reservation.
+User Interaction: Users can manage their reservations by selecting options like "Edit Reservation" or "Delete Reservation."
+
+
+ 
+
+
+
+
+
+3. Parking Spot Creation Screen:
+Purpose:  A form for the user (e.g., parking lot owners or managers) to add new parking spots by specifying details such as location, address, price, and availability.
+Inputs: Users fill in fields like the parking space name, price per hour, location, and available dates using a calendar.
+Outputs: The information entered becomes a new parking listing available for other users to reserve.
+User Interaction: The user can input details about their parking space and click "Save" to post it.
+
+
+
+
+
+4. Profile Screen: 
+Purpose: Allows the user to edit their profile/account details. 
+Inputs: Editable fields such as name, email, address, location and password.
+Outputs: Updated user profile information.
+User Interaction: The user can update their profile details and save the changes by clicking the "Save “button.
+
+
+
+Widgets
+Provide users with quick updates about parking spot availability without opening the app.
+
+
+Work Assignments:
+Sasidurka
+- Presentation Layer (UI): `ParkingListView`, ‘ReservationsView’
+- Business Logic: Filter and sort parking spots based on location.
+- Data Layer: CoreData implementation for parking spot creation and retrieval.
+ - Presentation Layer (UI): `ParkingCreationView`
+- Business Logic: Handle adding new parking spots and validating user input.
+- Data Layer: Save new parking spots in CoreData.
+Manpreet:
+- Presentation Layer (UI): `ParkingDetailView`, `ParkingSpotRowView`
+- Business Logic: Manage navigation between the list and detail views. Handle booking logic.
+- Data Layer: CoreData updates for booking and editing parking spots.
+- Presentation Layer (UI): Overall UI theming and responsiveness
+- Business Logic: Handle push notification logic for parking availability.
+- Data Layer: CoreData integration for storing user preferences.
+ Technical Stack
+Programming Language: Swift
+Framework: SwiftUI (for declarative UI design)
+Database: CoreData for offline data management
+Libraries: GeoMaps for map integration
+Architecture: MVVC (Model-View-ViewController) for clean and maintainable code
+Additional Features: Widgets for home screen integration
+Tools: Xcode, Visual Paradigm, GitHub for version control
+
+Conclusion:
+The SpotFinders app will provide an intuitive and streamlined user experience for managing parking spot bookings. With each team member handling a specific tier of the application, we ensure modular development and cohesive integration. The app leverages SwiftUI’s modern UI capabilities, CoreData’s robust data management, and advanced iOS features such as push notifications and location services for an all-encompassing parking solution.
